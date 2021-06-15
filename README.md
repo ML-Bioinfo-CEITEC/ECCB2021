@@ -1,5 +1,7 @@
 # ECCB2021
 
+Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
+
 ## Examples - Day 1
 
   * Simple regression problem - how one neuron works, learning rate (Petr)
