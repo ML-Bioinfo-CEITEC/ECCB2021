@@ -14,6 +14,6 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
 ## Examples - Day 2
 
-  * Recurrent neural network
+  * Recurrent neural network (Vlasta)
   * Text generation
   * Explainability
