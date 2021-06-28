@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<HTML lang="en">
+  <HEAD>
+    <TITLE>Behind the black box - ECCB 2021 tutorials</TITLE>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/ML-Bioinfo-CEITEC/penguinn/gh-pages/lib/bootstrap.min.css">   -->
+    <!-- https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css -->
+    
+    <script src="lib/tf.min.js"></script>  
+    <!-- https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js -->
+    <script src="lib/biojs-io-fasta@latest.js"></script>  
+    <!-- http://wzrd.in/bundle/biojs-io-fasta@latest -->
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </HEAD>
+  <BODY>
+    <!-- import the js files -->
+    <script type="text/javascript" src="genomicCNN.js"></script>
+    
+    <div class="main_container">
+      <div class="w3-container">
+        <div class="w3-bar w3-black">
+          <button class="w3-bar-item w3-button tablink w3-blue" onclick="openTab(event, 'GenomicSequencesCNN')">Genomic sequences CNN</button>
+          <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'cifarCNN')">CNN on images</button>
+          <!-- <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'GenomicSequencesCNN')">Genomic sequences CNN</button> -->
+          <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Space')">Add your model</button>
+        </div>
+
+
+        <!-- Genomic sequences CNN -->
+        <div id="GenomicSequencesCNN" class="tab">
+          <div class="w3-container w3-border">
+            <H1>Genomic sequences CNN</H1>
+            <form>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" id="opt_single" onclick="checkedSingle();" checked>Single sequence
+                </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" id="opt_fasta" onclick="checkedFasta();">Multiple sequences (FASTA)
+                </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" id="opt_multiline" onclick="checkedMultiline();">Multiple sequences (line separated)
+                </label>
+              </form><br/>
+            <div><textarea name="text1" id="text1" style="width:90%;height:150px;" 
+              placeholder="Copy your DNA sequence here (20 - 200bp sequence consisting of A, C, G, T and N characters). 
+
+              Example: 
+              GGAAGACCCAATCGGACCGGGAGGTCCGGGGAGACGTGTCGGGGATCGGG"></textarea></div>
+            <form><br/>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" id="opt_textoutput" checked>Text output
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="optradio" id="opt_tabularoutput">Tabular output
+              </label>
+            </form><br/>
+            <div><button type="button" onclick="makePrediction();">Predict</button>
+            <button type="button" onclick="loadExample();">Load Example</button></div><br/>
+          </div>  
+          <div class = "w3-container prob", id = "print_penguinn"></div>
+        </div>
+
+
+        <!-- CNN on images (The CIFAR-10 dataset) -->
+        <div id="cifarCNN" class="tab" style="display:none">
+          <div class="w3-container w3-border">
+              <H1>CNN on images (The CIFAR-10 dataset)</H1>
+              <p>Classes in the dataset: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck</p>
+              TODO add drag and drop and examples from cifar
+
+              <div>
+                <div id="input"></div><input type="file" id="files" /><br />
+                <output id="image"><img id="img" crossorigin src="https://i.imgur.com/JlUvsxa.jpg" width="227" height="227"/></output><br /><br />
+              </div>
+
+              <div><button type="button" onclick="cifarCNN_makePrediction();">Predict</button>
+              </div><br/>
+            </div>  
+
+            <div class = "w3-container prob", id = "cifarCNN_pred"></div>
+        </div>
+
+        <div id="Space" class="w3-container w3-border tab" style="display:none">
+          <H1>Add your model</H1>
+          <p><b>TODO</b> <br/>Go have a look at our simple template which is ready to run. Follow the guide and comments in the code.</p>
+
+        </div>
+      </div>
+
+
+      <!-- footer -->
+      <footer class="w3-container footer">
+        <p>Feel free to use the full code on github or contact the tutors for help. <br/> <a href="https://github.com/ML-Bioinfo-CEITEC/ECCB2021" target="_blank" rel="noopener noreferrer">https://github.com/ML-Bioinfo-CEITEC/ECCB2021</a></p>
+      </footer>
+    </div>
+
+    <!-- cifarCNN script has to be loaded after the html elements because its adding a handler -->
+    <script type="text/javascript" src="cifarCNN.js"></script>
+  </BODY>
+</HTML>

@@ -1,1 +1,0 @@
- - [HAM10000](https://github.com/ML-Bioinfo-CEITEC/ECCB2021/tree/main/data/HAM10000): subset of collection of multi-source dermatoscopic images of common pigmented skin lesions obtained from [HAM10000 ImageNet-style dataset](https://www.kaggle.com/umangjpatel/ham10000-imagenet-style-dataset) kaggle dataset
