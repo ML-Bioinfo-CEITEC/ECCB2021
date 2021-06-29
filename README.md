@@ -16,3 +16,7 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
   * Recurrent neural network (Vlasta)
   * Text generation
   * Explainability
+
+## Web app
+
+https://ml-bioinfo-ceitec.github.io/ECCB2021/
