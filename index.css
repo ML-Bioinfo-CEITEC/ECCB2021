@@ -1,0 +1,33 @@
+.seqtext {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+  }
+
+.main_container {
+  position: relative;
+  height: 761px;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  right: 0;
+  left: 0;
+  width:100%;
+  height:10%;   /* Height of the footer */
+  color:#fff;
+  background:#2196F3;
+  /* padding-top: 7px!important; */
+  text-align: center;
+  border-top: 3px solid
+}
+
+.footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

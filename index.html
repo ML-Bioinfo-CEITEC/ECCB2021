@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<HTML lang="en">
+  <HEAD>
+    <TITLE>Behind the black box - ECCB 2021 tutorials</TITLE>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <!-- javascript imports -->
+    <script src="lib/tf.min.js"></script>  <!-- https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js -->
+    <script src="lib/biojs-io-fasta@latest.js"></script>  <!-- http://wzrd.in/bundle/biojs-io-fasta@latest -->
+    <script src="index.js"></script>
+  </HEAD>
+  <BODY>
+    <div class="main_container w3-container">
+      <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-blue">Your machine learning model</button>
+      </div>
+
+      <!-- CNN on images (The CIFAR-10 dataset) -->
+      <div id="cifarCNN" class="tab">
+        <div class="w3-container w3-border">
+            <H1>An example of CNN on images</H1>
+            <p>The training dataset CIFAR-10 contains 10 classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck</p>
+
+            <div>
+              <div id="input"></div><input type="file" id="files" /><br />
+              <!-- TODO change to a link for your example image -->
+              <!-- TODO change to prefered view size of the image -->
+              <output id="image"><img id="img" crossorigin src="https://i.imgur.com/JlUvsxa.jpg" width="227" height="227"/></output><br /><br />
+            </div>
+
+            <!-- this button contains the prediction function -->
+            <div><button type="button" onclick="cifarCNN_makePrediction();">Predict</button>
+            </div><br/>
+          </div>  
+
+          <!-- this element gets filled with the result -->
+          <div class = "w3-container prob", id = "cifarCNN_pred"></div>
+      </div>
+    
+    </div>
+
+    <!-- cifarCNN script has to be loaded after the html elements because its adding a handler to an html element -->
+    <script type="text/javascript" src="cifarCNN.js"></script>
+  </BODY>
+</HTML>
