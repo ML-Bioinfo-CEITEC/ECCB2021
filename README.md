@@ -4,8 +4,8 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
 ## Examples - Day 1
 
-  * [Simple regression problem - how one neuron works, learning rate](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/01_One_Neuron.ipynb) (Petr)
-  * [Digit recognition (MNIST) - dense neural network](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/02_MNIST.ipynb) (Petr)
+  * [01_One_Neuron.ipynb](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/01_One_Neuron.ipynb)
+  * [02_MNIST.ipynb](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/02_MNIST.ipynb)
   * [CNN - conv. neural network on images](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/03_CNN_Demo.ipynb)  (Vlasta) 
   * [Fine-tuning (ResNet)](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/04_Transfer_Learning.ipynb) (Katarina)
   * [DNA one-hot encoding & CNN - e.g. G4](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/05_One_Hot_Demo.ipynb)
