@@ -2,6 +2,12 @@
 
 Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
+## Slides
+
+**Day 1**: https://docs.google.com/presentation/d/1ohJcikVyI6VLi3ermEm2vZIjzP7mK2aK1j145JSS7xQ/edit?usp=sharing
+
+**Day 2**: TBD
+
 ## Examples - Day 1
 
   * [01_One_Neuron.ipynb](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/01_One_Neuron.ipynb)
