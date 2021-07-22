@@ -53,11 +53,11 @@ function prolongSequence(sequence, size) {
       }
   
       if (result > 0.85) {
-        output = output.concat("<b>Output:</b><br/><br/>Probability of G4 complex =   ", result, ' (±', twoerr,'), higher than PENGUINN Precise score threshold.<br/><br/><br/>');
+        output = output.concat("<b>Output:</b><br/><br/>Probability of G4 complex =   ", result, ' (±', twoerr,')<br/><br/><br/>');
       } else if (result > 0.5) {
-        output = output.concat("<b>Output:</b><br/><br/>Probability of G4 complex =   ", result, ' (±', twoerr,'), higher than PENGUINN Sensitive score threshold.<br/><br/><br/>');
+        output = output.concat("<b>Output:</b><br/><br/>Probability of G4 complex =   ", result, ' (±', twoerr,')<br/><br/><br/>');
       } else {
-        output = output.concat("<b>Output:</b><br/><br/>Probability of G4 complex =   ", result, ' (±', twoerr,'), sequence does not pass PENGUINN threshold.<br/><br/><br/>');
+        output = output.concat("<b>Output:</b><br/><br/>Probability of G4 complex =   ", result, ' (±', twoerr,')<br/><br/><br/>');
       }  
     }
   
