@@ -18,11 +18,14 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
   * [06_Regularization - dropout](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/06_Regularization_Demo.ipynb)
   * [07_TFjs web page](https://ml-bioinfo-ceitec.github.io/ECCB2021/)
 
+
 ## Examples - Day 2
 
   * Recurrent neural network
   * Text generation
   * Explainability
+  * [08 RNN classification](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/08_RNN_classification.ipynb)
+  * [09_RNN generation](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/09_RNN_generation.ipynb)
 
 ## Web app
 
