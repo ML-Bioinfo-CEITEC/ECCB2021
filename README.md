@@ -21,11 +21,10 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
 ## Examples - Day 2
 
-  * Recurrent neural network
-  * Text generation
-  * Explainability
-  * [08 RNN classification](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/08_RNN_classification.ipynb)
+  * [08_RNN classification](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/08_RNN_classification.ipynb)
   * [09_RNN generation](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/09_RNN_generation.ipynb)
+  * [10_Integrated_Gradients](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/10_Integrated_Gradients.ipynb)
+  * [11_Grad-CAM](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/11_Grad-CAM.ipynb)
   * [Practice](https://github.com/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/Practice.ipynb)
 
 ## Web app
