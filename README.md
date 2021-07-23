@@ -1,5 +1,7 @@
 # ECCB2021
 
+Shorten Link: http://bit.ly/eccb2021
+
 ## Slides
 
 **Day 1**: https://docs.google.com/presentation/d/1ohJcikVyI6VLi3ermEm2vZIjzP7mK2aK1j145JSS7xQ/edit?usp=sharing
@@ -25,7 +27,7 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
   * [09_RNN generation](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/09_RNN_generation.ipynb)
   * [10_Integrated_Gradients](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/10_Integrated_Gradients_G4.ipynb)
   * [11_Grad-CAM](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/11_Grad_CAM_G4.ipynb)
-  * [Practice](https://github.com/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/Practice.ipynb)
+  * [Practice](https://github.com/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/Practice.ipynb), or use a version with [data preprocessing](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/Practise2.ipynb) 
 
 ## Web app
 
