@@ -33,10 +33,11 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
 https://ml-bioinfo-ceitec.github.io/ECCB2021/
 
+## Additional materials
 
 Where to go next: 
 * (perfect for beginners eager to use ML in biology) MIT course Computational Systems Biology: Deep Learning in the Life Sciences https://mit6874.github.io/
 * (slightly more advanced) Yannic Kilcher’s channel explaining various DL papers: https://www.youtube.com/channel/UCZHmQk67mSJgfCCTn7xBfew
 * (theoretical) Grad-CAM - slightly more matematical https://glassboxmedicine.com/2020/05/29/grad-cam-visual-explanations-from-deep-networks/
 * (theoretical) Overview of Explainability for Digital Pathology (a little bit longer): https://is.muni.cz/th/etz46/krajnansky-diploma-explainability.pdf
-* ...
+* see [Day2 slides 68&69](https://docs.google.com/presentation/d/1-Pp8KCVX5fpIM7OR1WYhr1gZLPhGsY6OYZGZkDU-f6A/edit#slide=id.ge600180b5c_0_12) in out presentation
