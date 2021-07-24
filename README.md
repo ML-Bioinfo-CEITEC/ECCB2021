@@ -6,7 +6,7 @@ Shorten Link: http://bit.ly/eccb2021
 
 **Day 1**: https://docs.google.com/presentation/d/1ohJcikVyI6VLi3ermEm2vZIjzP7mK2aK1j145JSS7xQ/edit?usp=sharing
 
-**Day 2**: TBD
+**Day 2**: https://docs.google.com/presentation/d/1-Pp8KCVX5fpIM7OR1WYhr1gZLPhGsY6OYZGZkDU-f6A/edit?usp=sharing
 
 Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
