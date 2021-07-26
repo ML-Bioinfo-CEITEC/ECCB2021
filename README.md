@@ -12,6 +12,12 @@ ECCB web: https://www.iscb.org/ismbeccb2021-program/tutorials#tut5
 
 Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
+## Recording
+
+**Day 1**: TBD
+
+**Day 2**: TBD
+
 ## Examples - Day 1
 
   * [01_One_Neuron.ipynb](https://colab.research.google.com/github/ML-Bioinfo-CEITEC/ECCB2021/blob/main/notebooks/01_One_Neuron.ipynb)
