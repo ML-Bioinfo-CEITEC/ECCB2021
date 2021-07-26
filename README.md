@@ -2,6 +2,8 @@
 
 Shorten Link: http://bit.ly/eccb2021
 
+ECCB web: https://www.iscb.org/ismbeccb2021-program/tutorials#tut5
+
 ## Slides
 
 **Day 1**: https://docs.google.com/presentation/d/1ohJcikVyI6VLi3ermEm2vZIjzP7mK2aK1j145JSS7xQ/edit?usp=sharing
