@@ -14,9 +14,12 @@ Last year materials: https://github.com/ML-Bioinfo-CEITEC/ECCB2020
 
 ## Recording
 
-**Day 1**: TBD
+**Day 1**: 
+https://us02web.zoom.us/rec/share/2tdj5IyQFZywRxrlk0OdI6IKRFWZcVb--h4eIHvBUvCvY2gO2R-hNOmlSI8SOxhw.z3p8Icqa6kgX8aQW
+Access Passcode: 78r3fva&
 
-**Day 2**: TBD
+**Day 2**: https://us02web.zoom.us/rec/share/f58j8BQav6Lbk4RWD-WCkN671MFnTF3K_DJPx-UFvw3TesiNNaPEuUpTPKQL113n.Fgq-vuL2WqL1tK3N
+Access Passcode: E8b$s#h4
 
 ## Examples - Day 1
 
